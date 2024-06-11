@@ -1,0 +1,108 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: green;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 10px;
+    margin-right: -30vw;
+    box-shadow: -1px 0px 10px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    display: flex;
+    place-items: center;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+}
+
+.sidebar-close-icon {
+    font-size: 2rem;
+    transform: rotate(45deg);
+}
+
+.sidebar-heading {
+    padding-left: 5px;
+    margin: 0;
+}
+
+.sidebar-body {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    padding: 4px;
+}
+
+.sidebar-checkout-button {
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar-item-list {
+    list-style: none;
+    flex-grow: 1;
+}
+
+.sidebar-item {
+    padding: 5px;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    font-size: smaller;
+}
+
+.sidebar-quantity-update {
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+}
+
+.sidebar-quantity {
+    padding: 0 5px;
+}
+
+.sidear-empty-cart-div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.sidear-empty-cart-img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sidebar a {
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
